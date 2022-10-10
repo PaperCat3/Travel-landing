@@ -1,0 +1,161 @@
+.pop-up {
+   
+   position: fixed;
+   z-index: 9999;
+   top:20px;
+   width: 650px;
+   font-family: 'Aleo';
+   font-style: normal;
+   font-weight: 400;
+}
+.container_pop-up {
+   max-width: 650px;
+   margin: 0 auto;
+   background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 16px;
+}
+.pop-up_header {
+   padding-top: 25px;
+   text-align: center;
+   font-size: 32px;
+   line-height: 38px;
+   color: #0D606F;
+   margin-bottom: 30px;
+}
+.pop-up_button {
+   font-family: 'Red Hat Text';
+   margin: 0 auto;
+   display: block;
+   border: none;
+   border-radius: 10px;
+   width: 86.15%;
+   height: 56px;
+   font-size: 20px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+.pop-up_button p{
+   margin: 0px;
+   max-width: 197px;
+   height: 20px;
+   display: inline;
+}
+.facebook{
+   background-color: #1877F2;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08);
+   color: white;
+}
+.google{
+   background: #FFFFFF;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08);
+   color: #0D606F;
+}
+.pop-up_button svg{
+   height: 26px;
+   margin-right: 16px;
+}
+.pop-up_line-or {
+   display: flex;
+   flex-direction: row;
+   font-size: 20px;
+   line-height: 24px;
+   margin-bottom: 10px;
+   margin-top: 30px;
+}
+.hr {
+   width: 40.15%;
+   height: 0px;
+   border: 1px solid rgba(13, 96, 111, 0.5);
+}
+.pop-up_line-or p{
+   margin: 0px;
+   color: rgba(13, 96, 111, 0.5);
+   font-weight: 700;
+   font-size: 20px;
+   font-weight: 700;
+}
+.pop-up_form {
+   width: 86.15%;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+.pop-up_text {
+   font-size: 16px;
+   line-height: 19px;
+   color: #0D606F;
+   margin: 0px;
+   margin-bottom: 5px;
+}
+.pop-up_input{
+   width: 100%;
+   height: 54px;
+   display: block;
+   margin: 0 auto;
+   background: #FFFFFF;
+   border: none;
+   box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   margin-bottom: 20px;
+}
+.Form_button {
+   font-family: 'Red Hat Text';
+   width: 100%;
+   height: 54px;
+   border: none;
+   margin: 0 auto;
+   background: #0D606F;
+   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+   border-radius: 10px;
+   font-size: 20px;
+   line-height: 26px;
+   color: #FFFFFF;
+   margin-top: 5px;
+}
+.forgot {
+   font-size: 15px;
+   line-height: 18px;
+   text-decoration-line: underline;
+   font-weight: 700;
+   color: #0D606F;
+   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+   display: block;
+   text-align: center;
+   margin-bottom: 26px;
+}
+.hr-bottom {
+   text-align: center;
+   width: 86.15%;
+   height: 0px;
+   left: 45px;
+   top: 598px;
+   border: 1px solid rgba(13, 96, 111, 0.5);
+   transform: rotate(0.1deg);
+   margin-bottom: 20px;
+}
+.pop-up_footer{
+   display: flex;
+   flex-direction: row;
+   font-weight: 700;
+   justify-content: center;
+   padding-bottom: 23px;
+}
+.pop-up_text_bottom {
+   margin: 0px;
+   font-size: 15px;
+   line-height: 18px;
+   color: rgba(13, 96, 111, 0.5);
+   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+.pop-up_register {
+   display: block;
+   color: rgba(13, 96, 111);
+   text-decoration-line: underline;
+}
+
+button:active{
+   border: #0D606F solid 3px;
+   transition: 1s;
+}
